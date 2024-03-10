@@ -8,6 +8,11 @@ body, h1, p{
 body {
   background: url('./images/bg-desktop.svg');
   background-color: hsl(257, 40%, 49%);
+  font-family: open sans;
+}
+
+p {
+  font-family: open sans;
 }
 
 h1, p {
