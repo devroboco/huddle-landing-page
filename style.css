@@ -1,4 +1,24 @@
+/* CSS Reset */
 body, h1, p{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+}
+
+h1, p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 60px;
+  background: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
 }
