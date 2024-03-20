@@ -6,13 +6,14 @@ body, h1, p{
 }
 
 body {
-  background: url('./images/bg-desktop.svg');
+  background: url('./images/bg-desktop.svg') no-repeat;
   background-color: hsl(257, 40%, 49%);
   font-family: open sans;
 }
 
 p {
   font-family: open sans;
+  line-height: 1.5;
 }
 
 h1, p {
@@ -26,4 +27,18 @@ a {
   background: white;
   color: hsl(257, 40%, 49%);
   border-radius: 30px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+
+.container {
+  display: flex;
 }
