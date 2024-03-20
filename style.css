@@ -11,16 +11,17 @@ body {
   font-family: open sans;
 }
 
-p {
+.container-text p {
   font-family: open sans;
   line-height: 1.5;
 }
 
-h1, p {
+.container-text h1, p {
   color: white;
+  margin-bottom: 20px;
 }
 
-a {
+.container-text a {
   text-decoration: none;
   display: inline-block;
   padding: 15px 60px;
@@ -41,4 +42,15 @@ a {
 
 .container {
   display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.container-text {
+  margin-top: 50px;
+}
+
+.container img {
+  max-width: 100%;
+  display: block;
 }
